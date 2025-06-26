@@ -22,3 +22,4 @@ jobs:
           name: Release v0.0.2
           body: ${{ steps.changelog.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          
