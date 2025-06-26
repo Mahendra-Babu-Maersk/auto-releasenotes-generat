@@ -18,8 +18,8 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1
         with:
-          tag: v0.0.2
-          name: Release v0.0.2
+          tag: v0.0.3
+          name: Release v0.0.3
           body: ${{ steps.changelog.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
           
